@@ -11,7 +11,6 @@ export class HomePage {
   task:string='';
 public tasks : Tasks[];
   constructor(public navCtrl: NavController) {
-    debugger;
     this.tasks=[
       {id:1,title:"First Task",isEdit:false,idDone:false},
       {id:2,title:"Second Task",isEdit:false,idDone:false}
